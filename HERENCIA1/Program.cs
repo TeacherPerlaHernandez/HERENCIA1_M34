@@ -20,6 +20,7 @@ namespace HERENCIA1
             protected               int                     resultado;
 
             //est6o es un comentario nuevo 26 de abril
+            //otro ejemplo de comentario prueba de sincronizacion
         }
         /// <summary>
         /// <summary>
