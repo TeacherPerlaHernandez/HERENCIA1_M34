@@ -19,6 +19,7 @@ namespace HERENCIA1
             protected               int                     valor2;
             protected               int                     resultado;
 
+            //est6o es un comentario nuevo 26 de abril
         }
         /// <summary>
         /// <summary>
