@@ -52,6 +52,7 @@ namespace HERENCIA1
             this.sumar.TabIndex = 0;
             this.sumar.Text = "Sumar";
             this.sumar.UseVisualStyleBackColor = true;
+            this.sumar.Click += new System.EventHandler(this.sumar_Click);
             // 
             // restar
             // 
@@ -63,6 +64,7 @@ namespace HERENCIA1
             this.restar.TabIndex = 1;
             this.restar.Text = "Restar";
             this.restar.UseVisualStyleBackColor = true;
+            this.restar.Click += new System.EventHandler(this.restar_Click);
             // 
             // multiplicar
             // 
@@ -74,6 +76,7 @@ namespace HERENCIA1
             this.multiplicar.TabIndex = 2;
             this.multiplicar.Text = "Multiplicar";
             this.multiplicar.UseVisualStyleBackColor = true;
+            this.multiplicar.Click += new System.EventHandler(this.multiplicar_Click);
             // 
             // dividir
             // 
@@ -96,6 +99,7 @@ namespace HERENCIA1
             this.limpiar.TabIndex = 4;
             this.limpiar.Text = "Limpiar";
             this.limpiar.UseVisualStyleBackColor = true;
+            this.limpiar.Click += new System.EventHandler(this.limpiar_Click);
             // 
             // label1
             // 
@@ -142,7 +146,6 @@ namespace HERENCIA1
             this.valor2.Name = "valor2";
             this.valor2.Size = new System.Drawing.Size(163, 31);
             this.valor2.TabIndex = 9;
-            this.valor2.TextChanged += new System.EventHandler(this.valor2_TextChanged);
             // 
             // resultado
             // 
